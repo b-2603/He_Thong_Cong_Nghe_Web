@@ -1,0 +1,140 @@
+#form1
+{
+	background-color: seashell;
+	height: auto;
+	width: auto;
+}
+#form1 > h2
+{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: cadetblue;
+}
+#img1
+{
+    border-radius:50%;
+	display:block;
+	margin: auto;
+	height: 250px;
+	width: 250px;
+
+}
+#form1 > p
+{
+	text-align: center;
+}
+#form2
+{
+	background-color: seashell;
+}
+#form2 > h2
+{
+	text-align: center;
+	background-color: cadetblue;
+	font-family: 'Times New Roman', Times, serif;
+}
+#form2 > ul
+{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+#form2 > ul li
+{
+	list-style: none;
+	width: 100%;
+	box-sizing: border-box;
+}
+#form2 > ul li:hover
+{
+	background-color: cyan;
+	cursor: pointer;
+}
+#form3
+{
+	background-color: seashell;
+}
+#form3 > h2
+{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: cadetblue;
+}
+#bang1
+{
+	border-collapse:collapse;
+	width: 1000px;
+	text-align: center;
+}
+#bang1 tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+#bang1 tr:nth-child(odd)
+{
+	background-color: #2603;
+}
+#bang1 ul
+{
+	list-style: none;
+	text-align: left;
+}
+#form4
+{
+	background-color: seashell;
+}
+#form4 > h2
+{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: cadetblue;
+}
+#bang2
+{
+	border-collapse: collapse;
+}
+#bang2 input, select
+{
+	border-radius: 8px;
+	border: 1px solid;
+	box-sizing: border-box;
+}
+#dangky
+{
+	background-color: white;
+	border: none;
+}
+#dangky:hover
+{
+	background-color: aqua;
+}
+#form5
+{
+	background-color: seashell;
+}
+#form5 > h2
+{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: cadetblue;
+}
+#form5 ul
+{
+	list-style: none;
+	font-weight: bold;
+}
+#form5 ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+#form5 ul li a:hover
+{
+	color: blue;
+}
+#form5 ul li a:active
+{
+	text-decoration: underline;
+}
