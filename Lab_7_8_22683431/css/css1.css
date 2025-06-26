@@ -1,0 +1,136 @@
+.header 
+{
+	display: flex;
+	background-color: peru;
+	justify-content: space-around;
+	align-items: center;
+	padding: 6px;
+	border-radius: 10px;
+}
+#form1 > a
+{
+	text-decoration: none;
+	color: black;
+	padding: 6px 15px;
+	font-weight: bold;
+	transition: background 0.3s;
+}
+#form1 a:hover
+{
+	background-color: blanchedalmond;
+	border-radius: 5px;
+}
+.section
+{
+	height: auto;
+	width: auto;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+#form2
+{
+	height: auto;
+	width: auto;
+	text-align: center;
+	padding: 30px 20px;
+}
+#form2 > h2
+{
+	background-color: burlywood;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 8px;
+	padding: 3px;
+}
+#form2 img
+{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	display: block;
+	object-fit: cover;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px; 
+}
+#form2 p
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	text-align: left;
+	margin-top: 20px;
+}
+#form3
+{
+	padding: 30px 20px;
+	text-align: center;
+}
+#form3 h2
+{
+	background-color: burlywood;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 8px;
+}
+#form3 ul li
+{
+	list-style: none;
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+#form3 ul li:hover
+{
+	background-color: skyblue;
+	border-radius: 10px;
+}
+#form4
+{
+	padding: 30px 20px;
+	text-align: center;
+}
+#form4 h2
+{
+	background-color: burlywood;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 10px;
+	border-radius: 8px;
+}
+#bang1
+{
+	border-collapse: collapse;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+#bang1 ul li
+{
+	list-style: none;
+	text-align: center;
+}
+#form5
+{
+	padding: 30px 20px;
+	text-align: center;
+}
+#form5 h2
+{
+	background-color: burlywood;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 8px;
+}
+#form6
+{
+	padding: 30px 20px;
+	text-align: center;
+}
+#form6 h2
+{
+	background-color: burlywood;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 8px;
+}
+.footer
+{
+	background-color: peru;
+}
